@@ -106,8 +106,8 @@ void update(float delta)
     if (_paused)
     {
         _rx = (inputs.btn.c_up != 0) ? true : false;
-        _ry = (inputs.btn.c_left != 0) ? true : false;
-        _rz = (inputs.btn.c_right != 0) ? true : false;
+        _ry = (inputs.btn.c_right != 0) ? true : false;
+        _rz = (inputs.btn.c_down != 0) ? true : false;
         
         _rotx = (_rx) ? _rotx - (2.0f * delta) : _rotx;
         _roty = (_ry) ? _roty - (2.0f * delta) : _roty;
