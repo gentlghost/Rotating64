@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <libdragon.h>
 #include <t3d/t3d.h>
-#include <t3d/t3dmath.h>
+#include <t3d/t3dmath.h>~
 #include <t3d/t3dmodel.h>
 
 #define TICKS_TO_SEC (get_ticks_ms() / 1000.0)
